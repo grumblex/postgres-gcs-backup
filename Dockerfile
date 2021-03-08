@@ -4,7 +4,7 @@ RUN apk update && apk add  \
   bash \
   postgresql \
   curl \
-  python \
+  python3  \
   py-pip \
   py-cffi \
   && pip install --upgrade pip \
