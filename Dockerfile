@@ -11,7 +11,7 @@ RUN apk update && apk add  \
   && apk add --virtual build-deps \
   gcc \
   libffi-dev \
-  python-dev \
+  python3-dev \
   linux-headers \
   musl-dev \
   openssl-dev \
