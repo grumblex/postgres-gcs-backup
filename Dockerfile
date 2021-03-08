@@ -1,6 +1,6 @@
 FROM alpine:3.13
 
-RUN apk add --update \
+RUN apk update && apk add --update \
   bash \
   postgresql \
   curl \
