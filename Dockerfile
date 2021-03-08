@@ -1,5 +1,6 @@
 FROM alpine:3.13.2
 
+ENV CRYPTOGRAPHY_DONT_BUILD_RUST=1
 RUN apk update && apk add  \
   bash \
   postgresql \
